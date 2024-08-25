@@ -17,7 +17,7 @@ namespace GestionCitasMedicas
             // Inicializar controles
             cmbPacientes.DataSource = pacientes;
             cmbPacientes.DisplayMember = "Nombre";
-            cmbMedicos.Items.AddRange(new string[] { "Dr. Smith", "Dr. Johnson", "Dr. Lee" });
+            cmbMedicos.Items.AddRange(new string[] { "Dr. Smith", "Dr. Johnson", "Dr. Lee", "Dr.Kawasaki", "Dr.Gutierrez" });
 
             // Asegurar la inicialización del evento
             CitaProgramada += (sender, e) => { };

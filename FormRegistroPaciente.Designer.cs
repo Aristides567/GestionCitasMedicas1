@@ -43,9 +43,9 @@
             labelNombre.AutoSize = true;
             labelNombre.Location = new Point(107, 127);
             labelNombre.Name = "labelNombre";
-            labelNombre.Size = new Size(150, 20);
+            labelNombre.Size = new Size(153, 20);
             labelNombre.TabIndex = 0;
-            labelNombre.Text = "Nombre del paciente";
+            labelNombre.Text = "Nombre del paciente:";
             // 
             // txtNombre
             // 
@@ -66,9 +66,9 @@
             labelEdad.AutoSize = true;
             labelEdad.Location = new Point(107, 178);
             labelEdad.Name = "labelEdad";
-            labelEdad.Size = new Size(129, 20);
+            labelEdad.Size = new Size(132, 20);
             labelEdad.TabIndex = 2;
-            labelEdad.Text = "Edad del paciente";
+            labelEdad.Text = "Edad del paciente:";
             // 
             // txtContacto
             // 

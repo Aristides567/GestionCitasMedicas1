@@ -41,18 +41,18 @@
             labelPaciente.AutoSize = true;
             labelPaciente.Location = new Point(81, 91);
             labelPaciente.Name = "labelPaciente";
-            labelPaciente.Size = new Size(146, 20);
+            labelPaciente.Size = new Size(149, 20);
             labelPaciente.TabIndex = 0;
-            labelPaciente.Text = "Seleccionar paciente";
+            labelPaciente.Text = "Seleccionar paciente:";
             // 
             // labelFecha
             // 
             labelFecha.AutoSize = true;
-            labelFecha.Location = new Point(81, 158);
+            labelFecha.Location = new Point(81, 163);
             labelFecha.Name = "labelFecha";
-            labelFecha.Size = new Size(190, 20);
+            labelFecha.Size = new Size(193, 20);
             labelFecha.TabIndex = 1;
-            labelFecha.Text = "Seleccionar fecha de la cita";
+            labelFecha.Text = "Seleccionar fecha de la cita:";
             // 
             // txtHora
             // 
@@ -64,20 +64,20 @@
             // labelMedico
             // 
             labelMedico.AutoSize = true;
-            labelMedico.Location = new Point(81, 309);
+            labelMedico.Location = new Point(81, 315);
             labelMedico.Name = "labelMedico";
-            labelMedico.Size = new Size(139, 20);
+            labelMedico.Size = new Size(142, 20);
             labelMedico.TabIndex = 3;
-            labelMedico.Text = "Seleccionar médico";
+            labelMedico.Text = "Seleccionar médico:";
             // 
             // labelHora
             // 
             labelHora.AutoSize = true;
             labelHora.Location = new Point(81, 234);
             labelHora.Name = "labelHora";
-            labelHora.Size = new Size(107, 20);
+            labelHora.Size = new Size(110, 20);
             labelHora.TabIndex = 4;
-            labelHora.Text = "Hora de la cita";
+            labelHora.Text = "Hora de la cita:";
             // 
             // dtpFecha
             // 
@@ -115,10 +115,10 @@
             // citaLabel
             // 
             citaLabel.AutoSize = true;
-            citaLabel.Font = new Font("Showcard Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            citaLabel.Location = new Point(376, 33);
+            citaLabel.Font = new Font("Showcard Gothic", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            citaLabel.Location = new Point(391, 32);
             citaLabel.Name = "citaLabel";
-            citaLabel.Size = new Size(163, 26);
+            citaLabel.Size = new Size(151, 26);
             citaLabel.TabIndex = 9;
             citaLabel.Text = "Agregar Cita";
             // 
